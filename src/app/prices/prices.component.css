@@ -1,0 +1,7 @@
+.inboxContainer {
+    width: 40vw;
+    height: 30vh;
+    border: 1px solid grey;
+    margin: auto;
+    overflow: auto;
+}

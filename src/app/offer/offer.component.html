@@ -1,0 +1,27 @@
+<div class="container pt-6">
+    <div class="row">
+        <div class="col-md-4 pt-5 pr-6 d-inline">
+            <select name="fileNameSelected" class="form-control select" title="Select File Name" ng-model="ofertaN" ng-change="" selectpicker="">
+                <option value="">---Please select---</option>
+                <option *ngFor="let item of items">{{item.name}}</option>
+            </select>
+        </div>
+        <div class="col-md-2 pt-5 pr-6 d-inline">
+            <label class="mr-8 d-inline text-right">ID Oferta:</label>
+        </div>
+        <div class="col-md-3 mt-5 pr-6 d-inline border">
+            <p class="mr-8 d-inline ">OFERTA_1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 pt-5 pr-6 d-inline"></div>
+        <div class="col-md-2 pt-5 pr-6 d-inline">
+            <label class="mr-8 d-inline text-right">Nombre Oferta:</label>
+        </div>
+        <div class="col-md-3 mt-5 pb-3 pr-6 d-inline border">
+            <p class="mr-8 d-inline ">DOS X UNO</p>
+        </div>
+    </div>
+    <hr>
+</div>
+

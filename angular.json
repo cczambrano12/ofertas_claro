@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ofertas"
+    }
+  },
+  "defaultProject": "ofertas",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
